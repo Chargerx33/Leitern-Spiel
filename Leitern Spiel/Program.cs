@@ -5,9 +5,6 @@ namespace Leitern_Spiel
 {
     internal class Program
     {
-        
-
-
         static void Main(string[] args)
         {
             Move(3);
@@ -15,7 +12,7 @@ namespace Leitern_Spiel
             Move(4);
             Console.WriteLine();
             Move(5);
-            Console.WriteLine();
+            Console.WriteLine("\n");
             Move(6);
             Console.ReadLine();
         }
@@ -180,6 +177,7 @@ namespace Leitern_Spiel
                     else
                     {
                         LoopLock = true;
+                    
                     }
                 }
             }
