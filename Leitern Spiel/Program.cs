@@ -7,6 +7,10 @@ namespace Leitern_Spiel
     {
         static void Main(string[] args)
         {
+            Move(1);
+            Console.WriteLine("\n"); 
+            Move(2);
+            Console.WriteLine("\n");
             Move(3);
             Console.WriteLine();
             Move(4);
@@ -118,7 +122,7 @@ namespace Leitern_Spiel
             else
                 Console.WriteLine("Die Züge enden in einer Endlosschleife.");
 
-            Console.WriteLine("Es wurde folgender Pfad gleaufen:");
+            Console.WriteLine("Es wurde folgender Pfad gelaufen:");
             Console.Write("[Start] ");
             int loopEnd = -1;
             int loopStart = -1;
@@ -178,10 +182,10 @@ namespace Leitern_Spiel
                     {
                         LoopLock = true;
                     
+
                     }
                 }
             }
         }
     }
 }
-
